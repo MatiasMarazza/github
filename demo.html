@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Carrusel</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="./dist/reveal.css">
+		<link rel="stylesheet" href="./dist/theme/white.css" id="theme">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section data-autoplay data-background-video-muted data-background-video="./videos/Combo-familiar-fade.mp4" >
+				</section>
+
+				<section data-autoplay data-background-video-muted data-background-video="./videos/mockup.mp4"  data-transition-speed="fade">
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="./dist/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				controlsTutorial: false,
+				controls: false,
+				autoPlayMedia: true,
+				autoSlide: 10000,
+  				loop: true,
+				playback:false,
+				slideNumber:false,
+				autoSlideStoppable:false,
+				progress:false,
+				// transitionSpeed:'slow',
+				    // The "normal" size of the presentation, aspect ratio will be preserved
+    // when the presentation is scaled to fit different resolutions. Can be
+    // specified using percentage units.
+    width: 1920,
+    height: 1080,
+
+    // Factor of the display size that should remain empty around the content
+    margin: 0.1,
+
+    // Bounds for smallest/largest possible scale to apply to content
+    minScale: 0.2,
+    maxScale: 1.0
+			});
+		</script>
+
+	</body>
+</html>
